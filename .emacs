@@ -29,6 +29,10 @@
 ;; buffer renaming keybinding
 (global-set-key "\C-cr" 'rename-buffer)
 
+
+(global-set-key "\C-x\C-k" 'clipboard-kill-region)
+(global-set-key "\M-w" 'clipboard-kill-ring-save)
+
 ;; save hist mode ftw
 (savehist-mode 1)
 
